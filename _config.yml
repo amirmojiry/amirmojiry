@@ -8,8 +8,8 @@ plugins:
   - jekyll-remote-theme
 markdown: kramdown
 permalink: pretty
-baseurl: "" # Set to "/repo-name" when publishing from a project site
-url: "" # Update with "https://amirMojiri.github.io" when ready
+baseurl: "" amirmojiry
+url: "" https://amirMojiry.github.io
 author: Amir Mojiri
 github_username: amirMojiri
 show_downloads: false
