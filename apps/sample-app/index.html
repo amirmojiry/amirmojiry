@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sample App · Overview</title>
+    <meta
+      name="description"
+      content="Template for app overview pages. Replace with details about your app, features, and download links."
+    />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <style>
+      .app {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 64px 20px;
+        display: grid;
+        gap: 32px;
+      }
+      .app__cta {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .button {
+        padding: 12px 20px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 600;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .button--ghost {
+        background: transparent;
+        color: var(--accent);
+        border: 2px solid var(--accent);
+      }
+      .feature-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 12px;
+      }
+      .feature-list li {
+        padding: 16px;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        background: var(--surface);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero hero--compact">
+      <div class="hero__content">
+        <h1>Sample App</h1>
+        <p>Short elevator pitch for the app. Swap this placeholder with your real copy.</p>
+        <nav class="hero__nav">
+          <a href="../../index.html">Home</a>
+          <a href="../index.html">Apps</a>
+          <a href="privacy.html">Privacy policy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="app">
+      <section>
+        <h2>Why it matters</h2>
+        <p>
+          Use this section to frame the user problem your app solves. Keep it friendly, concise, and
+          aligned with your brand voice.
+        </p>
+        <div class="app__cta">
+          <a class="button" href="#" aria-label="Download on your preferred platform">
+            Download link
+          </a>
+          <a class="button button--ghost" href="privacy.html">View privacy policy</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Highlights</h2>
+        <ul class="feature-list">
+          <li><strong>Feature #1</strong> · Explain the core benefit clearly and quickly.</li>
+          <li><strong>Feature #2</strong> · Share what outcome users can expect.</li>
+          <li><strong>Feature #3</strong> · Add social proof, reviews, or roadmap notes.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Release roadmap</h2>
+        <p>
+          Use a short timeline or bullet list to share what's coming next. It's a great way to build
+          trust and invite early adopters to follow along.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p>
+          ← <a href="../index.html">Back to apps</a> · <a href="../../blog/index.html">Read the blog</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
