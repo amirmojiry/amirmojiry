@@ -1,0 +1,17 @@
+title: Amir Mojiri
+description: >-
+  Web developer and app creator sharing projects, product notes, and privacy details.
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: pretty
+baseurl: "" # Set to "/repo-name" when publishing from a project site
+url: "" # Update with "https://amirMojiri.github.io" when ready
+author: Amir Mojiri
+github_username: amirMojiri
+show_downloads: false
+header_pages:
+  - apps/index.md
+  - blog/index.md
