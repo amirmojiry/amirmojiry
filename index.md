@@ -18,8 +18,8 @@ I focus on performant, accessible experiences across the web and mobile. This si
 
 ## Featured app
 
-- **Sample App** — A placeholder project showing how each app page is structured.  
-  [Intro page]({{ '/apps/sample-app/' | relative_url }}) • [Privacy policy]({{ '/apps/sample-app/privacy/' | relative_url }})
+- **HaHa Daily** — An app to make you laugh.  
+  [Intro page]({{ '/apps/haha-daily/' | relative_url }}) • [Privacy policy]({{ '/apps/haha-daily/privacy/' | relative_url }})
 
 ## Latest post
 
